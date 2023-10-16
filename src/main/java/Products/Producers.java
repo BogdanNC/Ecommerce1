@@ -1,3 +1,5 @@
+package Products;
+
 public class Producers {
     private Integer producerId;
     private String nume;

@@ -1,7 +1,12 @@
+package UserPack;
+
 public class User {
     private String name, email;
     private Integer userId;
 
+    public User() {
+
+    }
     public User(String name, String email, Integer user_ID) {
         this.name = name;
         this.email = email;
@@ -22,6 +27,10 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public void setEmail(String email) {

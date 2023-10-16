@@ -1,3 +1,5 @@
+package Products;
+
 public class Product {
     private Integer producerId;
     private float price;
