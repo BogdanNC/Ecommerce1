@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ae02021-4b25-4f1f-ad8d-31c6c90bf182" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/passwd.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/DataManipulations/DataLoader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/DataManipulations/PasswdLoader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/DataManipulations/UserLoader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Manager/LoginScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaLearningJurney.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearningJurney.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consumer/Consumer.java" afterDir="false" />
@@ -28,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/ShoppingCart.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
