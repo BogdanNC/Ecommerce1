@@ -1,5 +1,7 @@
 package Database;
 
+import Products.Producers;
+import Products.Product;
 import UserPack.User;
 
 import java.util.ArrayList;
@@ -10,6 +12,8 @@ public class Database {
     private ArrayList<User> userList;
     private HashMap<Integer, String> indexAndPasswd;
     private Integer userIndexCounter;
+    private ArrayList<Product> products;
+    private ArrayList<Producers> producers;
 
     public HashMap<Integer, String> getIndexAndPasswd() {
         return indexAndPasswd;
@@ -39,5 +43,21 @@ public class Database {
 
     public void setUserIndexCounter(Integer userIndexCounter) {
         this.userIndexCounter = userIndexCounter;
+    }
+
+    public ArrayList<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(ArrayList<Product> products) {
+        this.products = products;
+    }
+
+    public ArrayList<Producers> getProducers() {
+        return producers;
+    }
+
+    public void setProducers(ArrayList<Producers> producers) {
+        this.producers = producers;
     }
 }
