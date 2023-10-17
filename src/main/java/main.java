@@ -4,14 +4,8 @@ import DataManipulations.UserLoader;
 import Database.Database;
 import Manager.LoginScreen;
 import Manager.ProductManager;
-import UserPack.Security;
-import UserPack.User;
+import Manager.Cart;
 
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class main {
@@ -24,10 +18,12 @@ public class main {
         UserLoader userLoader = new UserLoader();
         PasswdLoader passwdLoader = new PasswdLoader();
         ProductsLoader productsLoader = new ProductsLoader();
+        Cart cart = new Cart();
 
         String userFilePath = "users.json";
         String passwdFilePath = "passwd.json";
         String productsFilePath = "products.json";
+        String cartsFilePath = "carts.json";
 
         userLoader.loadFromJsonFile(userFilePath);
         passwdLoader.loadFromJsonFile(passwdFilePath);
@@ -43,6 +39,11 @@ public class main {
             }
             if (actionCode == 10) {
                 productManager.getProductsCommand();
+            }
+            if (actionCode == 3) {
+                String cartID = "";
+                cart.getNewOrExistingCart(cartID);
+                System.out.println(cart.cartID);
             }
             System.out.println("Chose an action : 1 - Log in ; 2 - Authentificate");
             actionCode = scanner.nextInt();
