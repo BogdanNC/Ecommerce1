@@ -4,14 +4,6 @@ import DataManipulations.UserLoader;
 import Database.Database;
 import Manager.LoginScreen;
 import Manager.ProductManager;
-import UserPack.Security;
-import UserPack.User;
-
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class main {
@@ -42,8 +34,9 @@ public class main {
                 loginScreen.loadLoginScreen(actionCode);
             }
             if (actionCode == 10) {
-                productManager.getProductsCommand();
+                //productManager.getProductsCommand();
             }
+
             System.out.println("Chose an action : 1 - Log in ; 2 - Authentificate");
             actionCode = scanner.nextInt();
         }
