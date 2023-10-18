@@ -1,31 +1,12 @@
 package Manager;
 
-import Database.Database;
-import UserPack.Security;
-import UserPack.User;
-
-import java.util.ArrayList;
-import java.util.HashMap;
+import Manager.AccountManager;
 import java.util.Scanner;
 
 public class LoginScreen {
-    private Database database = Database.getDatabase();
+    private AccountManager accountManager = new AccountManager();
     public void loadLoginScreen (int actionCode) {
-
         Scanner scanner = new Scanner(System.in);
-
-        Security security = new Security();
-        HashMap<Integer, String> indexAndPasswd = database.getIndexAndPasswd();
-
-        ArrayList<User> userList = database.getUserList();
-        if (!userList.isEmpty()) {
-            for (User user : database.getUserList()) {
-                System.out.println(user.getName() + user.getEmail() + user.getUserId());
-            }
-        }// it's just an output
-
-        System.out.println(database.getUserIndexCounter());
-
 
         if (actionCode == 1) {
 
@@ -35,15 +16,14 @@ public class LoginScreen {
             System.out.println("password: ");
             String password = scanner.next();
 
-            boolean passedTheSecurityCheck;
-            passedTheSecurityCheck = security.checkPasswordEmailMatch(email, password);
+            Boolean success = accountManager.login(email, password);
 
 
             //login to do
         } else if (actionCode == 2) {
             // authentificate
             System.out.println("Name:");
-            String userName = scanner.next();
+            String username = scanner.next();
 
             System.out.print("Email: ");
             String email = scanner.next();
@@ -51,16 +31,11 @@ public class LoginScreen {
             System.out.println("password: ");
             String password = scanner.next();
 
-            if (security.checkUniqueEmail(email)) {
-                Integer userID = security.createUniqueID();
-                indexAndPasswd.put(userID, password);
-                User user = new User(userName, email, userID);
-                userList.add(user);
-                System.out.println("authentification succesfull");
-            } else {
-                System.out.println("there is already this email");
+            try {
+                String userCookie = accountManager.createAccount(username, email, password);
+            } catch (Exception err) {
+                System.out.println(err.getMessage());
             }
-
         } else {
             System.out.println("action invalid");
         }
