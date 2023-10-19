@@ -5,7 +5,7 @@ import Database.Database;
 import Manager.LoginScreen;
 import Manager.ProductManager;
 import java.util.Scanner;
-import Classes.Money;
+import Classes.ProductPrice;
 public class main {
     public static void main (String[] args) {
 
@@ -34,12 +34,9 @@ public class main {
                 loginScreen.loadLoginScreen(actionCode);
             }
             if (actionCode == 10) {
-                Money money = new Money(10.00, "USD");
-                System.out.println(money.value);
-                System.out.println(money.currencyCode);
-                System.out.println(money.addPercent("5"));
-                System.out.println(money.subtractPercentage(5));
-                System.out.println(money.subtractTax(5.00));
+                ProductPrice productPrice = new ProductPrice(10.00, "USD", 5);
+                System.out.println(productPrice.price);
+                System.out.println(productPrice.priceBeforeTax);
             }
 
             System.out.println("Chose an action : 1 - Log in ; 2 - Authentificate");
