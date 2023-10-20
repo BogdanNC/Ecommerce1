@@ -1,6 +1,5 @@
 package Database;
 
-import Products.Producers;
 import Products.Product;
 import UserPack.User;
 
@@ -13,7 +12,7 @@ public class Database {
     private HashMap<Integer, String> indexAndPasswd;
     private Integer userIndexCounter;
     private ArrayList<Product> products;
-    private ArrayList<Producers> producers;
+//    private ArrayList<Producers> producers;
 
     public HashMap<Integer, String> getIndexAndPasswd() {
         return indexAndPasswd;
@@ -53,11 +52,11 @@ public class Database {
         this.products = products;
     }
 
-    public ArrayList<Producers> getProducers() {
-        return producers;
-    }
+//    public ArrayList<Producers> getProducers() {
+//        return producers;
+//    }
 
-    public void setProducers(ArrayList<Producers> producers) {
-        this.producers = producers;
-    }
+//    public void setProducers(ArrayList<Producers> producers) {
+//        this.producers = producers;
+//    }
 }

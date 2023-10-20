@@ -37,6 +37,7 @@ public class main {
                 ProductPrice productPrice = new ProductPrice(10.00, "USD", 5);
                 System.out.println(productPrice.price);
                 System.out.println(productPrice.priceBeforeTax);
+                productManager.getProductsCommand();
             }
 
             System.out.println("Chose an action : 1 - Log in ; 2 - Authentificate");
