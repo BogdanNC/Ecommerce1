@@ -42,7 +42,7 @@ public class Money {
      * @param value The Number value
      * @param currencyCode The ISO 4217 currency code
      */
-    private Money(Number value, String currencyCode) {
+    public Money(Number value, String currencyCode) {
         this.value = convertToBigDecimal(value);
         this.currencyCode = currencyCode;
     }
@@ -55,10 +55,6 @@ public class Money {
     public Money(String value, String currencyCode) {
         this.value = convertToBigDecimal(value);
         this.currencyCode = currencyCode;
-    }
-
-    private Money(Number value, String currencyCode) {
-        new Money(currencyCode, currencyCode);
     }
 
     /**

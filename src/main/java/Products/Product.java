@@ -1,43 +1,55 @@
 package Products;
 
+import Classes.ProductPrice;
+
 public class Product {
-    private Integer producerId;
-    private float price;
-    private Integer quantity;
-    private String name;
+    private Integer productID;
+    private String Producer;
+    private String generalName;
+    private String category;
 
-    public Product(Integer producerId, float price, Integer quantity, String name) {
-        this.producerId = producerId;
-        this.price = price;
-        this.quantity = quantity;
-        this.name = name;
+    public Product(Integer productID, String producer, String generalName, String category) {
+        this.productID = productID;
+        Producer = producer;
+        this.generalName = generalName;
+        this.category = category;
+    }
+    public Product(Product product) {
+        this.category = product.getCategory();
+        this.productID = product.getProductID();
+        this.generalName = product.getGeneralName();
+        this.Producer = product.getProducer();
     }
 
-    public Integer getProducerId() {
-        return producerId;
+    public Integer getProductID() {
+        return productID;
     }
 
-    public float getPrice() {
-        return price;
+    public void setProductID(Integer productID) {
+        this.productID = productID;
     }
 
-    public Integer getQuantity() {
-        return quantity;
+    public String getProducer() {
+        return Producer;
     }
 
-    public String getName() {
-        return name;
+    public void setProducer(String producer) {
+        Producer = producer;
     }
 
-    public void setPrice(float price) {
-        this.price = price;
+    public String getGeneralName() {
+        return generalName;
     }
 
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
+    public void setGeneralName(String generalName) {
+        this.generalName = generalName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
