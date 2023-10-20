@@ -5,7 +5,7 @@ import Database.Database;
 import Manager.LoginScreen;
 import Manager.ProductManager;
 import java.util.Scanner;
-
+import Classes.ProductPrice;
 public class main {
     public static void main (String[] args) {
 
@@ -34,7 +34,9 @@ public class main {
                 loginScreen.loadLoginScreen(actionCode);
             }
             if (actionCode == 10) {
-                //productManager.getProductsCommand();
+                ProductPrice productPrice = new ProductPrice(10.00, "USD", 5);
+                System.out.println(productPrice.price);
+                System.out.println(productPrice.priceBeforeTax);
             }
 
             System.out.println("Chose an action : 1 - Log in ; 2 - Authentificate");
