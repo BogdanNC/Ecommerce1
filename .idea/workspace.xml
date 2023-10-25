@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ae02021-4b25-4f1f-ad8d-31c6c90bf182" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Products/ProductSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLearningJurney.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearningJurney.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumer/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Consumer/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Manager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Manager/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Products/Producers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Classes/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Classes/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Classes/ProductPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Classes/ProductPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Consumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Consumer/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Consumer/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Consumer/ShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataManipulations/PasswdLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataManipulations/PasswdLoader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataManipulations/PasswdLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataManipulations/PasswdLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataManipulations/ProductsLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataManipulations/ProductsLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataManipulations/UserLoader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataManipulations/UserLoader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataManipulations/UserLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataManipulations/UserLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Database/MongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Database/MongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Manager/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Manager/AccountManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Manager/LoginScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Manager/LoginScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Manager/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Manager/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Products/Producers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Products/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Products/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserPack/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserPack/Security.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserPack/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserPack/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
