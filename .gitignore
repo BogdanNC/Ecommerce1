@@ -24,6 +24,10 @@ bin/
 
 ### VS Code ###
 .vscode/
+target/
+mvnw
+mvnw.cmd
+.mvn/
 
 ### Mac OS ###
 .DS_Store
