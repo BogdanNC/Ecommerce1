@@ -28,6 +28,7 @@ target/
 mvnw
 mvnw.cmd
 .mvn/
+.idea/
 
 ### Mac OS ###
 .DS_Store
